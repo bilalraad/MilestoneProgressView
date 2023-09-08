@@ -1,11 +1,10 @@
 name: milestone_progress
 description: Flutter package to display progress through milestone progress widget
 version: 0.0.4
-author: Harpreet Seera <harpreetseera8525@gmail.com> 
 homepage: https://github.com/harpreetseera/MilestoneProgressView
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.19.5 <3.0.0"
 
 dependencies:
   flutter:

@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({
+    super.key,
+    required this.title,
+  });
 
   final String title;
 
@@ -69,7 +72,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   '$_counter milestone completed',
-
                 ),
               ),
             ],
